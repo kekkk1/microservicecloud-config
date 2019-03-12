@@ -1,0 +1,15 @@
+﻿spring:
+ profiles:
+  active:
+  - dev
+------
+spring:
+ profiles: dev #开发环境
+ application:
+  name: microservicecloud-config-khj-dev
+------
+spring:
+ profiles: test #开测试环境
+ application:
+  name: microservicecloud-config-khj-test
+# 请保存为UTF-8格式
